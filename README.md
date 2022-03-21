@@ -17,29 +17,57 @@ This part of the paper will describe how someone might use the new webpage by wa
 
 **Homepage**
 
-PIC
-
 This is the inital page that the user will be taken to. Here there is a title, subheading, a short description, as well as the data and a fiter search. 
+
+<br />
+<p align="center">
+<img src="static/images/homepage.png" width="1000"> 
+</p>
+<p align="center">
+Homepage
+</p>
 
 **Filter by Date**
 
 The first way to filter is by a date. Putting in a date, such as '1/9/2010', will pull back the information that corresponds with this date. If a date is entered with no corresponding data, the table will pull back empty. 
 
-PIC OF DATE
+<br />
+<p align="center">
+<img src="static/images/ufo_date.png" width="1000"> 
+</p>
+<p align="center">
+Filter by Date
+</p>
 
 **Filter by Location**
 
 The next way to filter is by location. The filter search is broken up into 3 types of locations, depending on how narrow you want the search, by City, State or Country. 
 
-PIC OF LOCATION 
+<br />
+<p align="center">
+<img src="static/images/ufo_location.png" width="1000"> 
+</p>
+<p align="center">
+Filter by Location
+</p>
 
 **Filter by Shape**
 
 The last way to filter is by shape. Similarly to the other two searches, just put the shape of the object into the search box and the results will appear if there are any corresponding resutls. 
 
-PIC OF SHAPE
+<br />
+<p align="center">
+<img src="static/images/ufo_shapes.png" width="1000"> 
+</p>
+<p align="center">
+Filter by Shape
+</p>
 
 --- 
 ## Summary 
 
-In a summary statement, describe one drawback of this new design and two recommendations for further development.
+- One drawback of this design is that you need to know what filters to put in to be able to search.
+- Another drawback, is that correct spelling is needed, there is no room for spelling error
+
+- One recommendation to this, would be to have a drop down list in the filter search, rather than having to type in the information yourself. 
+- Another recommendation would be to introduce a 'clear' button, to easily clear the filters and start again. 
